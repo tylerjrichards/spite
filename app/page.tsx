@@ -124,7 +124,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="container mx-auto px-6 py-8 border-t border-zinc-800">
+      <footer className="container mx-auto px-6 py-8 border-t border-zinc-800 relative">
         <p className="text-center text-zinc-500 text-sm mb-6">
           Used by the world&apos;s most incredible teams
         </p>
@@ -136,6 +136,11 @@ export default function Home() {
           {/* Latte Larry's Logo */}
           <a href="https://www.youtube.com/watch?v=DnFAJw9BnWI" target="_blank" rel="noopener noreferrer" className="text-zinc-500 text-sm hover:text-zinc-400 transition-colors">
             Latte Larry&apos;s
+          </a>
+        </div>
+        <div className="absolute bottom-8 right-6">
+          <a href="https://tylerjrichards.com" target="_blank" rel="noopener noreferrer" className="text-zinc-500 text-sm hover:text-zinc-400 transition-colors">
+            made with spite by Tyler Richards
           </a>
         </div>
       </footer>
