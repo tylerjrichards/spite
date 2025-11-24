@@ -17,6 +17,32 @@ export default function Home() {
         </p>
       </section>
 
+      {/* Testimonials Section */}
+      <section className="container mx-auto px-6 py-16">
+        <div className="max-w-4xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-8">
+            {/* Testimonial 1 */}
+            <div className="bg-zinc-800 rounded-lg p-6 border border-zinc-700">
+              <p className="text-zinc-300 mb-4 italic">
+                &quot;A mutual friend kept promising to get the next round of drinks but never would, and refused venmo requests. He got spam calls for a week, all thanks to <a href="https://tylerjrichards.com" className="text-white hover:text-zinc-300 underline">getspite.com</a>&quot;
+              </p>
+              <p className="text-zinc-500 text-sm">- Brexton</p>
+            </div>
+
+            {/* Testimonial 2 */}
+            <div className="bg-zinc-800 rounded-lg p-6 border border-zinc-700">
+              <p className="text-zinc-300 mb-4 italic">
+                &quot;I did a work trial for a startup, but they never hired me, shipped the product, and never even paid for my week of work.&quot;
+              </p>
+              <p className="text-zinc-300 mb-4 italic">
+                &quot;Get Spite started a rival business with worse margins, putting them out of business. Thanks <a href="https://tylerjrichards.com" className="text-white hover:text-zinc-300 underline">getspite.com</a>!&quot;
+              </p>
+              <p className="text-zinc-500 text-sm">- Rob</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Pricing Section */}
       <section className="container mx-auto px-6 pb-20">
         <h2 className="text-3xl font-bold text-center mb-12">Plans for everybody</h2>
