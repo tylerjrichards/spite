@@ -158,11 +158,11 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="container mx-auto px-6 py-8 border-t border-zinc-800 relative">
+      <footer className="container mx-auto px-6 py-8 pb-20 md:pb-8 border-t border-zinc-800 relative">
         <p className="text-center text-zinc-500 text-sm mb-6">
           Used by the world&apos;s most incredible teams
         </p>
-        <div className="flex items-center justify-center gap-12 flex-wrap opacity-60 hover:opacity-100 transition-opacity">
+        <div className="flex items-center justify-center gap-12 flex-wrap opacity-60 hover:opacity-100 transition-opacity mb-4 md:mb-0">
           {/* Rippling Logo */}
           <a href="https://en.wikipedia.org/wiki/Parker_Conrad" target="_blank" rel="noopener noreferrer" className="text-zinc-500 text-sm hover:text-zinc-400 transition-colors">
             Rippling
@@ -172,7 +172,7 @@ export default function Home() {
             Latte Larry&apos;s
           </a>
         </div>
-        <div className="absolute bottom-8 right-6">
+        <div className="absolute bottom-8 right-6 text-center md:text-right">
           <a href="https://tylerjrichards.com" target="_blank" rel="noopener noreferrer" className="text-zinc-500 text-sm hover:text-zinc-400 transition-colors">
             made with spite by Tyler Richards
           </a>
