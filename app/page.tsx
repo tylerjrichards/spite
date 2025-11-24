@@ -39,6 +39,14 @@ export default function Home() {
               </p>
               <p className="text-zinc-500 text-sm">- Rob</p>
             </div>
+
+            {/* Testimonial 3 */}
+            <div className="bg-zinc-800 rounded-lg p-6 border border-zinc-700 md:col-span-2">
+              <p className="text-zinc-300 mb-4 italic">
+                &quot;My VCs abandoned me when my business was looking down, <a href="https://tylerjrichards.com" className="text-white hover:text-zinc-300 underline">getspite.com</a> put the first 100k into my next venture while making sure David Sacks has gotten audited every year since.&quot;
+              </p>
+              <p className="text-zinc-500 text-sm">- Parker Conrad</p>
+            </div>
           </div>
         </div>
       </section>
